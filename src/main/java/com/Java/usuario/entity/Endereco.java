@@ -1,12 +1,7 @@
 package com.Java.usuario.entity;
 
 import jakarta.persistence.*;
-import lombok.AllArgsConstructor;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
-
-import java.util.List;
+import lombok.*;
 
 @Getter
 @Setter
@@ -14,6 +9,7 @@ import java.util.List;
 @NoArgsConstructor
 @Entity
 @Table(name = "endereco")
+@Builder
 public class Endereco {
 
     @Id
